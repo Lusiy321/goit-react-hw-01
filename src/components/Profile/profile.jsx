@@ -1,7 +1,8 @@
 import { PropTypes } from 'prop-types';
 import { Avatar, Description, Name, Profiles, Tag, Location, Stats, StatsList, Label, Quantity } from './profile.styled.js';
 
-export const Profile = ({ user }) => {
+
+export const Profile = ({user}) => {
   return (
     <Profiles>
       <Description>
