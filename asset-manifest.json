@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/Lusiy321/goit-react-hw-01/static/css/main.7acaea2f.css",
-    "main.js": "/Lusiy321/goit-react-hw-01/static/js/main.1830bf5d.js",
+    "main.css": "/Lusiy321/goit-react-hw-01/static/css/main.1ad9312a.chunk.css",
+    "main.js": "/Lusiy321/goit-react-hw-01/static/js/main.5901ff50.chunk.js",
+    "main.js.map": "/Lusiy321/goit-react-hw-01/static/js/main.5901ff50.chunk.js.map",
+    "runtime-main.js": "/Lusiy321/goit-react-hw-01/static/js/runtime-main.21710047.js",
+    "runtime-main.js.map": "/Lusiy321/goit-react-hw-01/static/js/runtime-main.21710047.js.map",
+    "static/js/2.678c8b91.chunk.js": "/Lusiy321/goit-react-hw-01/static/js/2.678c8b91.chunk.js",
+    "static/js/2.678c8b91.chunk.js.map": "/Lusiy321/goit-react-hw-01/static/js/2.678c8b91.chunk.js.map",
     "index.html": "/Lusiy321/goit-react-hw-01/index.html",
-    "main.7acaea2f.css.map": "/Lusiy321/goit-react-hw-01/static/css/main.7acaea2f.css.map",
-    "main.1830bf5d.js.map": "/Lusiy321/goit-react-hw-01/static/js/main.1830bf5d.js.map"
+    "static/css/main.1ad9312a.chunk.css.map": "/Lusiy321/goit-react-hw-01/static/css/main.1ad9312a.chunk.css.map",
+    "static/js/2.678c8b91.chunk.js.LICENSE.txt": "/Lusiy321/goit-react-hw-01/static/js/2.678c8b91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.1830bf5d.js"
+    "static/js/runtime-main.21710047.js",
+    "static/js/2.678c8b91.chunk.js",
+    "static/css/main.1ad9312a.chunk.css",
+    "static/js/main.5901ff50.chunk.js"
   ]
 }
