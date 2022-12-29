@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const Profiles = styled.div`
   margin: 20px auto;
   padding: 15px;
-  background-color: rgba(108, 107, 114, 0.493);
+  background-color: rgba(100, 100, 100, 0.1);
   width: 500px;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
 `;
 
 export const Description = styled.div`
@@ -39,7 +40,7 @@ export const Location = styled.p`
 export const Stats = styled.ul`
   display: flex;
   border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   justify-content: space-between;
   list-style: none;
   padding: 0;
@@ -55,7 +56,9 @@ export const StatsList = styled.li`
   width: 33.33%;
   height: 75px;
   line-height: 1.4;
-  border-right: 1px solid #fff;
+  &:not(:last-child) {
+    border-right: 2px solid #d9e0ea;
+  }
 `;
 export const Label = styled.span`
   display: block;
