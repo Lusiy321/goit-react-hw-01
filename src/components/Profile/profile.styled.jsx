@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 export const Profiles = styled.div`
   margin: 20px auto;
-  padding: 15px;
   background-color: rgba(100, 100, 100, 0.1);
-  width: 500px;
+  width: 390px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
 `;

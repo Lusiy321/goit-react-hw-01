@@ -1,4 +1,5 @@
-import { Friend, LiItem, Status, Avatar, Name } from "./friends.styled";
+import { Friend, LiItem, Status, Avatar, Name } from "./friends.styled.jsx";
+import { PropTypes } from 'prop-types';
 
 export const Friends = ({friends}) => {
     return (
@@ -13,4 +14,14 @@ export const Friends = ({friends}) => {
             
         </Friend>
     );
+}
+
+Friends.propTypes = {
+    friends: PropTypes.arrayOf(PropTypes.exact({
+        avatar: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+        isOnline: PropTypes.bool.isRequired,
+        id: PropTypes.number.isRequired,
+  }),
+  ),
 }

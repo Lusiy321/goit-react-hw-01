@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Friend = styled.ul`
   margin: 0px auto;
-  width: 530px;
+  width: 390px;
   padding: 0px;
 `;
 

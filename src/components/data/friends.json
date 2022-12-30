@@ -1,7 +1,7 @@
 [
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-    "name": "Кіт Василь",
+    "name": "Василь Кіт",
     "isOnline": true,
     "id": 1812
   },
@@ -19,13 +19,13 @@
   },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
-    "name": "Петук",
+    "name": "Афро Петук",
     "isOnline": true,
     "id": 1714
   },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
-    "name": "Пепа",
+    "name": "Пепа Свин",
     "isOnline": false,
     "id": 1284
   }
