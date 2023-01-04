@@ -7,10 +7,11 @@ import { Stats } from "./Stats/stats";
 import { Friends } from "./FriendList/frends";
 import { Transactions } from "./Transactions/transactions";
 
+
 export const App = () => {
   return <div>
     <Profile user={user} />
-    <Stats title="Upload stats" data={data} />
+    <Stats stats={data} />
     <Friends friends={friends} />
     <Transactions transactions={transactions} />
   </div>    
