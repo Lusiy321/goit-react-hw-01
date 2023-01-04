@@ -1,9 +1,9 @@
 import { PropTypes } from 'prop-types';
 import { Statistics, Title, StatList, Label, ListItem, Percen } from './stats.styled';
 
-export const Stats = ({ data }) => {
+export const Stats = ({ data, title }) => {
   return (<Statistics>
-    <Title>Upload stats</Title>
+    <Title>{title}</Title>
     <StatList>
       {data.map(datas => (
         <ListItem key={datas.id}>

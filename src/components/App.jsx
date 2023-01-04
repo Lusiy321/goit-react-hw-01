@@ -10,7 +10,7 @@ import { Transactions } from "./Transactions/transactions";
 export const App = () => {
   return <div>
     <Profile user={user} />
-    <Stats data={data} />
+    <Stats title="Upload stats" data={data} />
     <Friends friends={friends} />
     <Transactions transactions={transactions} />
   </div>    

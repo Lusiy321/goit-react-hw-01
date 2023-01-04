@@ -13,6 +13,7 @@ export const Statistics = styled.section`
 export const Title = styled.h2`
   text-transform: uppercase;
   font-size: 30px;
+  margin: 20px;
 `;
 
 export const StatList = styled.ul`
