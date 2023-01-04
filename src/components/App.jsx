@@ -11,7 +11,7 @@ import { Transactions } from "./Transactions/transactions";
 export const App = () => {
   return <div>
     <Profile user={user} />
-    <Stats stats={data} />
+    <Stats title="Upload stats" stats={data} />
     <Friends friends={friends} />
     <Transactions transactions={transactions} />
   </div>    

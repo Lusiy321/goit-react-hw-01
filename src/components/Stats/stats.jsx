@@ -3,7 +3,7 @@ import { Statistics, Title, StatList, Label, ListItem, Percen } from './stats.st
 
 export const Stats = ({ stats, title }) => {
   return (<Statistics>
-    <Title>{title}</Title>
+    { title = title ? <Title>{title}</Title> : null}
     <StatList>
       {stats.map(datas => (
         <ListItem key={datas.id}>
